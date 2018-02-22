@@ -19,13 +19,15 @@ gem 'puma', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'devise'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
+
+# Additional gems
+gem 'devise'
+gem 'pry-rails'
 
 # Specify older version of ffi until issue is fixed
 gem 'ffi', '1.9.18'
