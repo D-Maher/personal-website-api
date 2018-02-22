@@ -3,9 +3,9 @@
 one:
   title: MyString
   body: MyText
-  author: one
+  author_id: 
 
 two:
   title: MyString
   body: MyText
-  author: two
+  author_id: 
