@@ -4,7 +4,5 @@ Rails.application.routes.draw do
 
   root to: 'posts#index'
 
-  namespace :v1 do
-    resources :posts
-  end
+  resources :posts
 end
