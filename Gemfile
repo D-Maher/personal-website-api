@@ -25,8 +25,10 @@ gem 'puma', '~> 3.0'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
-# Additional gems
+# User auth
 gem 'devise'
+
+# Better console
 gem 'pry-rails'
 
 # Specify older version of ffi until issue is fixed
@@ -35,6 +37,9 @@ gem 'ffi', '1.9.18'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pry-byebug'
+  gem "better_errors"
+  gem 'dotenv-rails'
 end
 
 group :development do
