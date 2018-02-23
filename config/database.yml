@@ -23,13 +23,13 @@ default: &default
 
 development:
   <<: *default
-  database: DM_website_api_development
+  database: pseronal_website_api_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: DM_website_api
+  #username: pseronal_website_api
 
   # The password associated with the postgres role (username).
   #password:
@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: DM_website_api_test
+  database: pseronal_website_api_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: DM_website_api_production
-  username: DM_website_api
+  database: pseronal_website_api_production
+  username: pseronal_website_api
   password: <%= ENV['DM_WEBSITE_API_DATABASE_PASSWORD'] %>
