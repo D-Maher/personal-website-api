@@ -28,6 +28,9 @@ gem 'puma', '~> 3.0'
 # User auth
 gem 'devise'
 
+# HTTP Auth
+gem 'jwt'
+
 # Better console
 gem 'pry-rails'
 
